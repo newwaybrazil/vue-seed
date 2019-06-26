@@ -1,0 +1,6 @@
+/* Dropdown-related styles */
+
+.el-dropdown-menu__item:not(.is-disabled):hover {
+    background-color: lighten($--color-warning, 40%);
+    color: $--color-warning;
+}

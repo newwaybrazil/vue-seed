@@ -1,0 +1,17 @@
+/* Text-related styles */
+
+.title {
+    font-size: $--font-size-extra-large;
+}
+
+.subtitle {
+    color: $--color-text-regular;
+    font-size: $--font-size-base;
+}
+
+
+/* Text colorizing-related styles */
+
+.text-danger {
+    color: $--color-danger;
+}

@@ -1,0 +1,36 @@
+/* SCSS components to be imported */
+@font-face {
+    font-family: 'Norse';
+    src: url('../fonts/norse.ttf'); /* IE9 Compat Modes */
+}
+@import './components/dropdown';
+@import './components/form';
+@import './components/hr';
+@import './components/input';
+@import './components/loading';
+@import './components/margin';
+@import './components/pagination';
+@import './components/table';
+@import './components/text';
+
+
+/* Root style to be applied to whole project */
+
+html,
+body {
+    color: $--color-text-primary;
+    font-family: $--font-family;
+    font-size: $--font-size-base;
+    font-weight: $--font-weight-primary;
+    height: 100%;
+    line-height: $--font-line-height-primary;
+    margin: 0;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,14 @@
+/* Table-related styles */
+
+.el-table .ascending .sort-caret.ascending {
+    border-bottom-color: $--color-warning;
+}
+
+.el-table .descending .sort-caret.descending {
+    border-top-color: $--color-warning;
+}
+
+.el-table .cell, .el-table th div {
+    padding-left: 0;
+    padding-right: 0;
+}

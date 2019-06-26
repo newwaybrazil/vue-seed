@@ -1,0 +1,13 @@
+/* Pagination-related styles */
+
+.el-pagination {
+    padding: 0;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: $--color-warning;
+}
+
+.el-pagination .el-select .el-input {
+    margin: 0;
+}
